@@ -1,14 +1,12 @@
   <div id="singup">
     <form method="post" action="validate()">
-      {{ username }}
-      <input type="text" maxlength="16" name="username">
-      <br>
-      {{ password }}
-      <input type="password" maxlength="12" name="password">
-      <br>
-      {{ email }}
-      <input type="email" maxlength="64" name="email">
-      <br>
+
+      <input type="text" maxlength="16" name="username" placeholder=" {{ username }}">
+      <br><br>
+      <input type="password" maxlength="12" name="password" placeholder=" {{ password }}">
+      <br><br>
+      <input type="email" maxlength="64" name="email" placeholder=" {{ email }}">
+      <br><br>
       <button type="submit">{{ singup }}</button>
     </form>
   </div>

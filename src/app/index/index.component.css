@@ -1,8 +1,9 @@
 section{
   height: 450px;
-  background-color: #231f20e5;
+  background-color: #ededed;
+  box-shadow: 0px 1px 2px #898989;
+}
+#bigtext{
+  color: #231f20;
+}
 
-}
-.darkeffect{
-  background-color: #bb4330;
-}
