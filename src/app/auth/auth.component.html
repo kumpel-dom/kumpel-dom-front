@@ -1,12 +1,19 @@
-  <div id="singup">
-    <form method="post" action="validate()">
-
-      <input type="text" maxlength="16" name="username" placeholder=" {{ username }}">
-      <br><br>
-      <input type="password" maxlength="12" name="password" placeholder=" {{ password }}">
-      <br><br>
-      <input type="email" maxlength="64" name="email" placeholder=" {{ email }}">
-      <br><br>
-      <button type="submit">{{ singup }}</button>
+<div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field inline">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">username</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field inline">
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+      </div>
+      <button class="btn waves-effect waves-light light-green darken-1" type="submit" name="action">Submit
+          <i class="material-icons right">send</i>
+        </button>
     </form>
   </div>

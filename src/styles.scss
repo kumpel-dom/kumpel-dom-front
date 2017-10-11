@@ -1,0 +1,80 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'colors';
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+/*
+body{
+  height: 100%;
+  min-height: 100%;
+}
+h2{
+  font-size: 2em;
+}
+button {
+  position: relative;
+  border: 1px solid $maincolor;
+  color: $maincolor;
+  background-color: white;
+  padding: 10px 20px;
+  align-content: center;
+  font-size: 1em;
+  text-decoration: none;
+  transition-duration: 0.25s;
+}
+button:hover{
+  transition-duration: 0.25s;
+  box-shadow: 0px 1px 2px $mainshadow;
+}
+*:focus{
+  outline: 0 !important;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+input[type=text] {
+  transition-duration: 0.25s;
+  border: 1px solid $maincolor;
+  height: 1.5em;
+  font-size: 1.2em;
+}
+input[type=password] {
+  transition-duration: 0.25s;
+  border: 1px solid $maincolor;
+  height: 1.5em;
+  font-size: 1.2em;
+}
+input[type=email] {
+  transition-duration: 0.25s;
+  border: 1px solid $maincolor;
+  height: 1.5em;
+  font-size: 1.2em;
+}
+input[type=text]:focus {
+  transition-duration: 0.25s;
+  box-shadow: 0px 1px 2px $mainshadow;
+  border: 1px solid $maincolor;
+  height: 1.5em;
+  font-size: 1.2em;
+}
+input[type=password]:focus {
+  border: 1px solid $maincolor;
+  transition-duration: 0.25s;
+  box-shadow: 0px 1px 2px $mainshadow;
+  height: 1.5em;
+  font-size: 1.2em;
+}
+input[type=email]:focus {
+  border: 1px solid $maincolor;
+  transition-duration: 0.25s;
+  box-shadow: 0px 1px 2px $mainshadow;
+  height: 1.5em;
+  font-size: 1.2em;
+}
+
+*/
