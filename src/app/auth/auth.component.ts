@@ -7,14 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AuthComponent implements OnInit {
 
-  fistname = 'Primeiro nome';
-  lastname = 'Ultimo nome';
-  username = 'Nome de usuário';
-  password = 'senha';
-  password2 = 'reente a senha';
-  email = 'e-mail';
-  tel = 'número de telefone';
-  singup = 'Cadastrar';
+  fistname: String = 'Primeiro nome';
+  lastname: String = 'Ultimo nome';
+  username: String = 'Nome de usuário';
+  password: String = 'senha';
+  password2: String = 'reente a senha';
+  email: String = 'e-mail';
+  tel: String = 'número de telefone';
+  singup: String = 'Cadastrar';
+  singin: String = 'Entrar';
 
   constructor() {
 
