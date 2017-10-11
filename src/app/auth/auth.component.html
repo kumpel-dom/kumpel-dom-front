@@ -1,15 +1,14 @@
-
-     <form method="post" action="validate()">
-         Forename
-         <input type="text" maxlength="32" name="forename">
-         Surname
-         <input type="text" maxlength="32" name="surname">
-         Username
-         <input type="text" maxlength="16" name="username">
-         Password
-         <input type="text" maxlength="12" name="password">
-         Age
-         <input type="text" maxlength="3" name="age">
-         Email
-         <input type="text" maxlength="64" name="email">
-     </form>
+  <div id="singup">
+    <form method="post" action="validate()">
+      {{ username }}
+      <input type="text" maxlength="16" name="username">
+      <br>
+      {{ password }}
+      <input type="password" maxlength="12" name="password">
+      <br>
+      {{ email }}
+      <input type="email" maxlength="64" name="email">
+      <br>
+      <button type="submit">{{ singup }}</button>
+    </form>
+  </div>

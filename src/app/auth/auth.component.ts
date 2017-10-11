@@ -7,9 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AuthComponent implements OnInit {
 
-  constructor() { }
+  fistname = 'Primeiro nome';
+  lastname = 'Ultimo nome';
+  username = 'Nome de usuário';
+  password = 'senha';
+  password2 = 'reente a senha';
+  email = 'e-mail';
+  tel = 'número de telefone';
+  singup = 'Cadastrar';
+
+  constructor() {
+
+   }
 
   ngOnInit() {
+
   }
 
   public validate(){
