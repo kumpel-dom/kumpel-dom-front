@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class IndexComponent implements OnInit {
 
   title = 'Kumpel dom';
-  login = 'Entrar';
+  singup: String = 'Cadastrar';
+  singin: String = 'Entrar';
 
   constructor() { }
 

@@ -1,5 +1,84 @@
 @import '../../colors';
 
+.top-nav{
+  width: 100%;
+}
+#main-info{
+  background-color: $maingray;
+  width: 100%;
+  height: 450px;
+  z-index: -3 !important;
+}
 a {
   color: $maincolor;
+}
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+.pimg1{
+  background-image:url('../../assets/img/up-house-404.jpg');
+  min-height:100%;
+}
+.pimg2{
+  background-image:url('../../assets/img/up-house-404.jpg');
+  min-height:400px;
+}
+.pimg3{
+  background-image:url('../../assets/img/up-house-404.jpg');
+  min-height:400px;
+}
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+.section-light{
+  background-color: $mainlight;
+  color: $maindark;
+}
+.section-dark{
+  background-color: $maindark;
+  color: $mainlight;
+}
+.text-dark{
+  color: $maindark;
+}
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color: $maindark;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+.ptext .border{
+  background-color: $maindark;
+  color:white;
+  padding:20px;
+}
+.ptext .border.trans{
+  background-color:transparent;
+}
+.front-title{
+  background-color: $maindark;
+  position: relative;
+  height: 100%;
+  float: left;
+}
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
+.btn-large {
+  color: white !important;
+}
+p{
+  text-align: justify;
 }
