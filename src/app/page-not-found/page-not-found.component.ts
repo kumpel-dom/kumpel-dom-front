@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PageNotFoundComponent implements OnInit {
 
+  msg404: String = 'Sua casa deve ter fugido!';
+
   constructor() { }
 
   ngOnInit() {
