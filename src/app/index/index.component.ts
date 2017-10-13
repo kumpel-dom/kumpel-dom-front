@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IndexComponent implements OnInit {
 
-  bigmsg = 'lorem ipsum sit amet';
-  submsg = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a magna';
+  title = 'Kumpel dom';
+  login = 'Entrar';
 
   constructor() { }
 
