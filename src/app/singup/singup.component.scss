@@ -1,0 +1,59 @@
+@import '../../colors';
+
+a{
+  color: $maincolor;
+}
+header{
+  width: 100%;
+  text-align: center;
+}
+.btn {
+  color: white !important;
+}
+.card{
+  position: relative;
+  top: 12%;
+  display: block;
+  margin: auto;
+  width: 20%;
+  padding: 1%;
+  background-color: $maingray;
+}
+/* label color */
+.input-field label {
+  color: $maincolor;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label,
+.input-field input[type=email]:focus + label,
+.input-field input[type=password]:focus + label,
+.input-field input[type=checkbox]:focus + label{
+  color: $maincolor;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus,
+.input-field input[type=email]:focus,
+.input-field input[type=password]:focus,
+.input-field input[type=checkbox]:focus {
+  border-bottom: 1px solid $maincolor;
+  box-shadow: 0 1px 0 0 $maincolor;
+}
+/* valid color */
+.input-field input[type=text].valid,
+.input-field input[type=email].valid,
+.input-field input[type=password].valid,
+.input-field input[type=checkbox].valid {
+  border-bottom: 1px solid $maindark;
+  box-shadow: 0 1px 0 0 $maindark;
+}
+
+.input-field input[type=text].invalid,
+.input-field input[type=email].invalid,
+.input-field input[type=password].invalid,
+.input-field input[type=checkbox].invalid {
+  border-bottom: 1px solid $maindark;
+  box-shadow: 0 1px 0 0 $maindark;
+}
+.input-field .prefix.active {
+  color: $maindark;
+}
